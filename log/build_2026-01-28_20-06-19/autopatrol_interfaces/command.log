@@ -1,0 +1,4 @@
+Invoking command in '/home/k664309/chapt7/chapt7_ws/src/build/autopatrol_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/k664309/chapt7/chapt7_ws/src/build/autopatrol_interfaces -- -j6 -l6
+Invoked command in '/home/k664309/chapt7/chapt7_ws/src/build/autopatrol_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/k664309/chapt7/chapt7_ws/src/build/autopatrol_interfaces -- -j6 -l6
+Invoking command in '/home/k664309/chapt7/chapt7_ws/src/build/autopatrol_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/k664309/chapt7/chapt7_ws/src/build/autopatrol_interfaces
+Invoked command in '/home/k664309/chapt7/chapt7_ws/src/build/autopatrol_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/k664309/chapt7/chapt7_ws/src/build/autopatrol_interfaces

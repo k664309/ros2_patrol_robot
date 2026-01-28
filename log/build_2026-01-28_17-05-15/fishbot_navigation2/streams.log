@@ -1,0 +1,27 @@
+[1.357s] Invoking command in '/home/k664309/chapt7/chapt7_ws/src/build/fishbot_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/k664309/chapt7/chapt7_ws/src/build/fishbot_navigation2 -- -j6 -l6
+[1.595s] Invoked command in '/home/k664309/chapt7/chapt7_ws/src/build/fishbot_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/k664309/chapt7/chapt7_ws/src/build/fishbot_navigation2 -- -j6 -l6
+[1.595s] Invoking command in '/home/k664309/chapt7/chapt7_ws/src/build/fishbot_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/k664309/chapt7/chapt7_ws/src/build/fishbot_navigation2
+[1.617s] -- Install configuration: ""
+[1.617s] -- Up-to-date: /home/k664309/chapt7/chapt7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/launch
+[1.618s] -- Up-to-date: /home/k664309/chapt7/chapt7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/launch/navigation2.launch.py
+[1.618s] -- Up-to-date: /home/k664309/chapt7/chapt7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/config
+[1.624s] -- Installing: /home/k664309/chapt7/chapt7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/config/nav2_params.yaml
+[1.624s] -- Up-to-date: /home/k664309/chapt7/chapt7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/maps
+[1.624s] -- Up-to-date: /home/k664309/chapt7/chapt7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/maps/room.yaml
+[1.624s] -- Up-to-date: /home/k664309/chapt7/chapt7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/maps/room.pgm
+[1.625s] -- Up-to-date: /home/k664309/chapt7/chapt7_ws/src/install/fishbot_navigation2/share/ament_index/resource_index/package_run_dependencies/fishbot_navigation2
+[1.625s] -- Up-to-date: /home/k664309/chapt7/chapt7_ws/src/install/fishbot_navigation2/share/ament_index/resource_index/parent_prefix_path/fishbot_navigation2
+[1.625s] -- Up-to-date: /home/k664309/chapt7/chapt7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/environment/ament_prefix_path.sh
+[1.625s] -- Up-to-date: /home/k664309/chapt7/chapt7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/environment/ament_prefix_path.dsv
+[1.626s] -- Up-to-date: /home/k664309/chapt7/chapt7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/environment/path.sh
+[1.626s] -- Up-to-date: /home/k664309/chapt7/chapt7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/environment/path.dsv
+[1.626s] -- Up-to-date: /home/k664309/chapt7/chapt7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/local_setup.bash
+[1.626s] -- Up-to-date: /home/k664309/chapt7/chapt7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/local_setup.sh
+[1.626s] -- Up-to-date: /home/k664309/chapt7/chapt7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/local_setup.zsh
+[1.626s] -- Up-to-date: /home/k664309/chapt7/chapt7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/local_setup.dsv
+[1.626s] -- Up-to-date: /home/k664309/chapt7/chapt7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/package.dsv
+[1.626s] -- Up-to-date: /home/k664309/chapt7/chapt7_ws/src/install/fishbot_navigation2/share/ament_index/resource_index/packages/fishbot_navigation2
+[1.633s] -- Up-to-date: /home/k664309/chapt7/chapt7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/cmake/fishbot_navigation2Config.cmake
+[1.633s] -- Up-to-date: /home/k664309/chapt7/chapt7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/cmake/fishbot_navigation2Config-version.cmake
+[1.634s] -- Up-to-date: /home/k664309/chapt7/chapt7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/package.xml
+[1.639s] Invoked command in '/home/k664309/chapt7/chapt7_ws/src/build/fishbot_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/k664309/chapt7/chapt7_ws/src/build/fishbot_navigation2

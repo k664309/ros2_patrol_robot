@@ -1,0 +1,43 @@
+[2.364s] Invoking command in '/home/k664309/chapt7/chapt7_ws/src/autopatrol_robot': PYTHONPATH=/home/k664309/chapt7/chapt7_ws/src/build/autopatrol_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/k664309/chapt7/chapt7_ws/src/install/autopatrol_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/autopatrol_robot build --build-base /home/k664309/chapt7/chapt7_ws/src/build/autopatrol_robot/build install --record /home/k664309/chapt7/chapt7_ws/src/build/autopatrol_robot/install.log --single-version-externally-managed install_data
+[3.001s] running egg_info
+[3.002s] creating ../build/autopatrol_robot/autopatrol_robot.egg-info
+[3.003s] writing ../build/autopatrol_robot/autopatrol_robot.egg-info/PKG-INFO
+[3.004s] writing dependency_links to ../build/autopatrol_robot/autopatrol_robot.egg-info/dependency_links.txt
+[3.004s] writing entry points to ../build/autopatrol_robot/autopatrol_robot.egg-info/entry_points.txt
+[3.005s] writing requirements to ../build/autopatrol_robot/autopatrol_robot.egg-info/requires.txt
+[3.005s] writing top-level names to ../build/autopatrol_robot/autopatrol_robot.egg-info/top_level.txt
+[3.006s] writing manifest file '../build/autopatrol_robot/autopatrol_robot.egg-info/SOURCES.txt'
+[3.011s] reading manifest file '../build/autopatrol_robot/autopatrol_robot.egg-info/SOURCES.txt'
+[3.013s] writing manifest file '../build/autopatrol_robot/autopatrol_robot.egg-info/SOURCES.txt'
+[3.014s] running build
+[3.015s] running build_py
+[3.015s] creating /home/k664309/chapt7/chapt7_ws/src/build/autopatrol_robot/build
+[3.015s] creating /home/k664309/chapt7/chapt7_ws/src/build/autopatrol_robot/build/lib
+[3.016s] creating /home/k664309/chapt7/chapt7_ws/src/build/autopatrol_robot/build/lib/autopatrol_robot
+[3.016s] copying autopatrol_robot/speaker.py -> /home/k664309/chapt7/chapt7_ws/src/build/autopatrol_robot/build/lib/autopatrol_robot
+[3.016s] copying autopatrol_robot/patrol_node.py -> /home/k664309/chapt7/chapt7_ws/src/build/autopatrol_robot/build/lib/autopatrol_robot
+[3.017s] copying autopatrol_robot/__init__.py -> /home/k664309/chapt7/chapt7_ws/src/build/autopatrol_robot/build/lib/autopatrol_robot
+[3.017s] running install
+[3.017s] running install_lib
+[3.019s] creating /home/k664309/chapt7/chapt7_ws/src/install/autopatrol_robot/lib/python3.10/site-packages/autopatrol_robot
+[3.019s] copying /home/k664309/chapt7/chapt7_ws/src/build/autopatrol_robot/build/lib/autopatrol_robot/speaker.py -> /home/k664309/chapt7/chapt7_ws/src/install/autopatrol_robot/lib/python3.10/site-packages/autopatrol_robot
+[3.020s] copying /home/k664309/chapt7/chapt7_ws/src/build/autopatrol_robot/build/lib/autopatrol_robot/patrol_node.py -> /home/k664309/chapt7/chapt7_ws/src/install/autopatrol_robot/lib/python3.10/site-packages/autopatrol_robot
+[3.020s] copying /home/k664309/chapt7/chapt7_ws/src/build/autopatrol_robot/build/lib/autopatrol_robot/__init__.py -> /home/k664309/chapt7/chapt7_ws/src/install/autopatrol_robot/lib/python3.10/site-packages/autopatrol_robot
+[3.021s] byte-compiling /home/k664309/chapt7/chapt7_ws/src/install/autopatrol_robot/lib/python3.10/site-packages/autopatrol_robot/speaker.py to speaker.cpython-310.pyc
+[3.023s] byte-compiling /home/k664309/chapt7/chapt7_ws/src/install/autopatrol_robot/lib/python3.10/site-packages/autopatrol_robot/patrol_node.py to patrol_node.cpython-310.pyc
+[3.028s] byte-compiling /home/k664309/chapt7/chapt7_ws/src/install/autopatrol_robot/lib/python3.10/site-packages/autopatrol_robot/__init__.py to __init__.cpython-310.pyc
+[3.028s] running install_data
+[3.029s] creating /home/k664309/chapt7/chapt7_ws/src/install/autopatrol_robot/share/ament_index
+[3.029s] creating /home/k664309/chapt7/chapt7_ws/src/install/autopatrol_robot/share/ament_index/resource_index
+[3.029s] creating /home/k664309/chapt7/chapt7_ws/src/install/autopatrol_robot/share/ament_index/resource_index/packages
+[3.030s] copying resource/autopatrol_robot -> /home/k664309/chapt7/chapt7_ws/src/install/autopatrol_robot/share/ament_index/resource_index/packages
+[3.030s] copying package.xml -> /home/k664309/chapt7/chapt7_ws/src/install/autopatrol_robot/share/autopatrol_robot
+[3.030s] creating /home/k664309/chapt7/chapt7_ws/src/install/autopatrol_robot/share/autopatrol_robot/config
+[3.031s] copying config/patrol_config.yaml -> /home/k664309/chapt7/chapt7_ws/src/install/autopatrol_robot/share/autopatrol_robot/config
+[3.031s] running install_egg_info
+[3.035s] Copying ../build/autopatrol_robot/autopatrol_robot.egg-info to /home/k664309/chapt7/chapt7_ws/src/install/autopatrol_robot/lib/python3.10/site-packages/autopatrol_robot-0.0.0-py3.10.egg-info
+[3.039s] running install_scripts
+[3.103s] Installing patrol_node script to /home/k664309/chapt7/chapt7_ws/src/install/autopatrol_robot/lib/autopatrol_robot
+[3.104s] Installing speaker script to /home/k664309/chapt7/chapt7_ws/src/install/autopatrol_robot/lib/autopatrol_robot
+[3.104s] writing list of installed files to '/home/k664309/chapt7/chapt7_ws/src/build/autopatrol_robot/install.log'
+[3.147s] Invoked command in '/home/k664309/chapt7/chapt7_ws/src/autopatrol_robot' returned '0': PYTHONPATH=/home/k664309/chapt7/chapt7_ws/src/build/autopatrol_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/k664309/chapt7/chapt7_ws/src/install/autopatrol_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/autopatrol_robot build --build-base /home/k664309/chapt7/chapt7_ws/src/build/autopatrol_robot/build install --record /home/k664309/chapt7/chapt7_ws/src/build/autopatrol_robot/install.log --single-version-externally-managed install_data

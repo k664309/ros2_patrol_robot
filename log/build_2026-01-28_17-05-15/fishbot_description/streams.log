@@ -1,0 +1,51 @@
+[1.350s] Invoking command in '/home/k664309/chapt7/chapt7_ws/src/build/fishbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/k664309/chapt7/chapt7_ws/src/build/fishbot_description -- -j6 -l6
+[1.538s] Invoked command in '/home/k664309/chapt7/chapt7_ws/src/build/fishbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/k664309/chapt7/chapt7_ws/src/build/fishbot_description -- -j6 -l6
+[1.602s] Invoking command in '/home/k664309/chapt7/chapt7_ws/src/build/fishbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/k664309/chapt7/chapt7_ws/src/build/fishbot_description
+[1.646s] -- Install configuration: ""
+[1.646s] -- Up-to-date: /home/k664309/chapt7/chapt7_ws/src/install/fishbot_description/share/fishbot_description/launch
+[1.647s] -- Up-to-date: /home/k664309/chapt7/chapt7_ws/src/install/fishbot_description/share/fishbot_description/launch/gazebo_sim.launch.py
+[1.647s] -- Up-to-date: /home/k664309/chapt7/chapt7_ws/src/install/fishbot_description/share/fishbot_description/launch/display_robot.launch.py
+[1.647s] -- Up-to-date: /home/k664309/chapt7/chapt7_ws/src/install/fishbot_description/share/fishbot_description/urdf
+[1.649s] -- Up-to-date: /home/k664309/chapt7/chapt7_ws/src/install/fishbot_description/share/fishbot_description/urdf/first_robot.gv
+[1.649s] -- Up-to-date: /home/k664309/chapt7/chapt7_ws/src/install/fishbot_description/share/fishbot_description/urdf/fishbot
+[1.649s] -- Up-to-date: /home/k664309/chapt7/chapt7_ws/src/install/fishbot_description/share/fishbot_description/urdf/fishbot/actuator
+[1.649s] -- Up-to-date: /home/k664309/chapt7/chapt7_ws/src/install/fishbot_description/share/fishbot_description/urdf/fishbot/actuator/wheel.urdf.xacro
+[1.649s] -- Up-to-date: /home/k664309/chapt7/chapt7_ws/src/install/fishbot_description/share/fishbot_description/urdf/fishbot/actuator/caster.urdf.xacro
+[1.649s] -- Up-to-date: /home/k664309/chapt7/chapt7_ws/src/install/fishbot_description/share/fishbot_description/urdf/fishbot/sensor
+[1.649s] -- Up-to-date: /home/k664309/chapt7/chapt7_ws/src/install/fishbot_description/share/fishbot_description/urdf/fishbot/sensor/imu.urdf.xacro
+[1.649s] -- Up-to-date: /home/k664309/chapt7/chapt7_ws/src/install/fishbot_description/share/fishbot_description/urdf/fishbot/sensor/camera.urdf.xacro
+[1.649s] -- Up-to-date: /home/k664309/chapt7/chapt7_ws/src/install/fishbot_description/share/fishbot_description/urdf/fishbot/sensor/laser.urdf.xacro
+[1.650s] -- Up-to-date: /home/k664309/chapt7/chapt7_ws/src/install/fishbot_description/share/fishbot_description/urdf/fishbot/plugins
+[1.650s] -- Up-to-date: /home/k664309/chapt7/chapt7_ws/src/install/fishbot_description/share/fishbot_description/urdf/fishbot/plugins/gazebo_sensor_plugin.xacro
+[1.650s] -- Up-to-date: /home/k664309/chapt7/chapt7_ws/src/install/fishbot_description/share/fishbot_description/urdf/fishbot/plugins/gazebo_control_plugin.xacro
+[1.650s] -- Up-to-date: /home/k664309/chapt7/chapt7_ws/src/install/fishbot_description/share/fishbot_description/urdf/fishbot/fishbot_ros2_control.xacro
+[1.650s] -- Up-to-date: /home/k664309/chapt7/chapt7_ws/src/install/fishbot_description/share/fishbot_description/urdf/fishbot/fishbot.urdf.xacro
+[1.650s] -- Up-to-date: /home/k664309/chapt7/chapt7_ws/src/install/fishbot_description/share/fishbot_description/urdf/fishbot/common_inertia.xacro
+[1.654s] -- Up-to-date: /home/k664309/chapt7/chapt7_ws/src/install/fishbot_description/share/fishbot_description/urdf/fishbot/base.urdf.xacro
+[1.654s] -- Up-to-date: /home/k664309/chapt7/chapt7_ws/src/install/fishbot_description/share/fishbot_description/urdf/first_robot.urdf
+[1.654s] -- Up-to-date: /home/k664309/chapt7/chapt7_ws/src/install/fishbot_description/share/fishbot_description/urdf/first_robot.xacro
+[1.654s] -- Up-to-date: /home/k664309/chapt7/chapt7_ws/src/install/fishbot_description/share/fishbot_description/urdf/first_robot.pdf
+[1.655s] -- Up-to-date: /home/k664309/chapt7/chapt7_ws/src/install/fishbot_description/share/fishbot_description/config
+[1.655s] -- Up-to-date: /home/k664309/chapt7/chapt7_ws/src/install/fishbot_description/share/fishbot_description/config/fishbot_ros2_controller.yaml
+[1.655s] -- Up-to-date: /home/k664309/chapt7/chapt7_ws/src/install/fishbot_description/share/fishbot_description/config/display_robot_model.rviz
+[1.655s] -- Up-to-date: /home/k664309/chapt7/chapt7_ws/src/install/fishbot_description/share/fishbot_description/world
+[1.655s] -- Up-to-date: /home/k664309/chapt7/chapt7_ws/src/install/fishbot_description/share/fishbot_description/world/room
+[1.655s] -- Up-to-date: /home/k664309/chapt7/chapt7_ws/src/install/fishbot_description/share/fishbot_description/world/room/model.config
+[1.655s] -- Up-to-date: /home/k664309/chapt7/chapt7_ws/src/install/fishbot_description/share/fishbot_description/world/room/model.sdf
+[1.656s] -- Up-to-date: /home/k664309/chapt7/chapt7_ws/src/install/fishbot_description/share/fishbot_description/world/custom_room.world
+[1.656s] -- Up-to-date: /home/k664309/chapt7/chapt7_ws/src/install/fishbot_description/share/ament_index/resource_index/package_run_dependencies/fishbot_description
+[1.656s] -- Up-to-date: /home/k664309/chapt7/chapt7_ws/src/install/fishbot_description/share/ament_index/resource_index/parent_prefix_path/fishbot_description
+[1.656s] -- Up-to-date: /home/k664309/chapt7/chapt7_ws/src/install/fishbot_description/share/fishbot_description/environment/ament_prefix_path.sh
+[1.656s] -- Up-to-date: /home/k664309/chapt7/chapt7_ws/src/install/fishbot_description/share/fishbot_description/environment/ament_prefix_path.dsv
+[1.659s] -- Up-to-date: /home/k664309/chapt7/chapt7_ws/src/install/fishbot_description/share/fishbot_description/environment/path.sh
+[1.659s] -- Up-to-date: /home/k664309/chapt7/chapt7_ws/src/install/fishbot_description/share/fishbot_description/environment/path.dsv
+[1.659s] -- Up-to-date: /home/k664309/chapt7/chapt7_ws/src/install/fishbot_description/share/fishbot_description/local_setup.bash
+[1.659s] -- Up-to-date: /home/k664309/chapt7/chapt7_ws/src/install/fishbot_description/share/fishbot_description/local_setup.sh
+[1.659s] -- Up-to-date: /home/k664309/chapt7/chapt7_ws/src/install/fishbot_description/share/fishbot_description/local_setup.zsh
+[1.659s] -- Up-to-date: /home/k664309/chapt7/chapt7_ws/src/install/fishbot_description/share/fishbot_description/local_setup.dsv
+[1.660s] -- Up-to-date: /home/k664309/chapt7/chapt7_ws/src/install/fishbot_description/share/fishbot_description/package.dsv
+[1.660s] -- Up-to-date: /home/k664309/chapt7/chapt7_ws/src/install/fishbot_description/share/ament_index/resource_index/packages/fishbot_description
+[1.661s] -- Up-to-date: /home/k664309/chapt7/chapt7_ws/src/install/fishbot_description/share/fishbot_description/cmake/fishbot_descriptionConfig.cmake
+[1.662s] -- Up-to-date: /home/k664309/chapt7/chapt7_ws/src/install/fishbot_description/share/fishbot_description/cmake/fishbot_descriptionConfig-version.cmake
+[1.663s] -- Up-to-date: /home/k664309/chapt7/chapt7_ws/src/install/fishbot_description/share/fishbot_description/package.xml
+[1.698s] Invoked command in '/home/k664309/chapt7/chapt7_ws/src/build/fishbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/k664309/chapt7/chapt7_ws/src/build/fishbot_description
