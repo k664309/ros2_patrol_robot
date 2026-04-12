@@ -1,0 +1,65 @@
+/**:
+  ros__parameters:
+
+    # 插件與求解器 (核心運算)
+    solver_plugin: solver_plugins::CeresSolver
+    ceres_linear_solver: SPARSE_NORMAL_CHOLESKY
+    ceres_preconditioner: SCHUR_JACOBI
+    ceres_trust_strategy: LEVENBERG_MARQUARDT
+    ceres_dogleg_type: TRADITIONAL_DOGLEG
+    ceres_loss_function: None
+
+    # ROS 座標對接
+    odom_frame: odom
+    map_frame: map
+    base_frame: base_footprint
+    scan_topic: /scan
+    use_map_saver: true
+    mode: mapping 
+
+    # --- 針對 Ryzen 9 與 VM 優化區 ---
+    debug_logging: false
+    throttle_scans: 1
+    transform_publish_period: 0.02
+    map_update_interval: 1.0       # 地圖更新頻率 (每秒)
+    resolution: 0.04               # 提高解析度，讓牆壁更細、更直
+    
+    # 硬體對齊 (與你 Xacro 雷達規格同步)
+    min_laser_range: 0.12          # 避開 0.0m 警告與自體遮擋
+    max_laser_range: 8.0           # 避開 20.0m 警告，發揮 8m 雷達全力
+    
+    # 算力全開：極限頻率
+    minimum_time_interval: 0.05    # 每秒處理 20 次，專治轉彎偏移
+    transform_timeout: 1.0         # 針對虛擬機通訊延遲放寬容錯
+    tf_buffer_duration: 30.
+    stack_size_to_use: 40000000
+    enable_interactive_mode: true
+
+    # --- 掃描匹配增強 (防疊加模式) ---
+    use_scan_matching: true
+    use_scan_barycenter: true
+    minimum_travel_distance: 0.1
+    minimum_travel_heading: 0.1
+    scan_buffer_size: 40           # 利用 12GB 記憶體，加大緩衝
+    scan_buffer_maximum_scan_distance: 10.0
+
+    # 提高信心門檻，徹底消滅重影 (Ghosting)
+    link_match_minimum_response_fine: 0.4 
+    link_scan_maximum_distance: 3.0
+    
+    # 回環檢測 (Loop Closure) 修正累積偏差
+    loop_search_maximum_distance: 5.0
+    do_loop_closing: true 
+    loop_match_minimum_chain_size: 10            
+    loop_match_maximum_variance_coarse: 3.0  
+    loop_match_minimum_response_coarse: 0.35    
+    loop_match_minimum_response_fine: 0.55   
+
+    # --- 空間搜索 (專治 180 度大轉彎) ---
+    correlation_search_space_dimension: 1.5  # 擴大拼圖搜尋半徑，防止轉彎飛出去
+    correlation_search_space_resolution: 0.01
+    correlation_search_space_smear_deviation: 0.1 
+
+    # 掃描匹配罰分係數
+    distance_variance_penalty: 0.5      
+    angle_variance_penalty: 0.5        # 增加角度信任度，不盲從里程計
