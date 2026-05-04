@@ -8,7 +8,7 @@ def generate_launch_description():
     urdf_package_path = get_package_share_directory('fishbot_description')
     default_xacro_path = os.path.join(urdf_package_path, 'urdf', 'fishbot/fishbot.urdf.xacro')
     # default_rviz_config_path = os.path.join(urdf_package_path, 'config', 'display_robot_model.rviz')
-    default_gazebo_world_path = os.path.join(urdf_package_path, 'world', 'robocup_home1.world')
+    default_gazebo_world_path = os.path.join(urdf_package_path, 'world', 'robocup_home2.world')
 
 
     # 2. 聲明一個 urdf 目錄參數，方便啟動時修改
