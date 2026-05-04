@@ -56,7 +56,7 @@ def generate_launch_description():
         cmd='ros2 control load_controller fishbot_diff_drive_controller --set-state active'.split(),
         output='screen'
     )
-
+    
     # 5. 返回啟動描述
     return launch.LaunchDescription([
         action_declare_arg_mode_path,
